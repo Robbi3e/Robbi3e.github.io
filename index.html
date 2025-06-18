@@ -1,11 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome Page</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Robbie's Portfolio</title>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #d9e8ff, #f9fbff);
+      color: #1e293b;
+      margin: 0;
+      padding: 50px 20px;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.65;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #2563eb;
+      margin-bottom: 10px;
+      letter-spacing: 2px;
+      font-weight: 700;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #475569;
+      font-weight: 500;
+      font-style: italic;
+    }
+
+    section {
+      background: white;
+      border-radius: 15px;
+      padding: 30px 35px;
+      margin-bottom: 50px;
+      box-shadow: 0 12px 24px rgba(37, 99, 235, 0.12);
+      transition: box-shadow 0.3s ease;
+    }
+
+    section:hover {
+      box-shadow: 0 20px 40px rgba(37, 99, 235, 0.25);
+    }
+
+    h2 {
+      font-weight: 700;
+      font-size: 1.8rem;
+      color: #1e40af;
+      margin-bottom: 20px;
+      border-left: 6px solid #2563eb;
+      padding-left: 12px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      color: #334155;
+      font-size: 1.1rem;
+    }
+
+    ul li {
+      margin-bottom: 14px;
+      position: relative;
+      padding-left: 20px;
+    }
+
+    ul li::before {
+      content: '▹';
+      position: absolute;
+      left: 0;
+      color: #2563eb;
+      font-weight: 700;
+      font-size: 1.3rem;
+      top: 2px;
+    }
+
+    a {
+      color: #2563eb;
+      font-weight: 600;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #1e40af;
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: #64748b;
+      margin-top: 80px;
+      user-select: none;
+    }
+  </style>
 </head>
 <body>
-    <h2>Welcome to my Website</h2>
+
+  <header>
+    <h1>Robbie's Page</h1>
+    <p>Grade 12 Student | Computer Science Enthusiast</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>
+      I’m passionate about creating applications, exploring artificial intelligence, web development, and networking. I thrive on learning new skills and taking on projects that challenge me.
+    </p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript — crafting responsive user interfaces</li>
+      <li>Python — programming and AI fundamentals</li>
+      <li>Web development basics and networking knowledge</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>To-Do Experience:</strong> A task management app that helps me stay organized and productive.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>
+      Check out my <a href="https://github.com/Robbi3e" target="_blank" rel="noopener noreferrer">GitHub</a> to explore my projects or get in touch.
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Robbie. All rights reserved.
+  </footer>
+
 </body>
 </html>
